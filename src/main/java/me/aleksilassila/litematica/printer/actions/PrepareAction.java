@@ -51,7 +51,7 @@ public class PrepareAction extends Action {
         ItemStack itemStack = context.getStack();
         int slot = context.requiredItemSlot;
 
-        if (itemStack != null && client.interactionManager != null) {
+        if (itemStack != null && client.interactionManager != null && itemStack.getCount() > 1) {
             PlayerInventory inventory = player.getInventory();
 
             // This thing is straight from MinecraftClient#doItemPick()
