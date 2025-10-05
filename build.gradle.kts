@@ -43,7 +43,7 @@ dependencies {
     //modImplementation("curse.maven:litematica-${litematica_projectid}:${litematica_fileid}")
 
     // Sakura's Jitpack
-    modImplementation("com.github.sakura-ryoko:malilib:${malilib_version}")
+    modImplementation("com.github.sakura-ryoko:malilib:1.21.8-0.25.5")
     modImplementation("com.github.sakura-ryoko:litematica:${litematica_version}")
 
     // For Mod Menu display
